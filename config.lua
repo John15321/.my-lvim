@@ -80,9 +80,10 @@ lvim.scrolloff = 10
 lvim.spelllang = "en"
 lvim.showtabline = true
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
+lvim.builtin.cmp.experimental.ghost_text = false
 
 -- Lualine config
-lvim.builtin.lualine.sections.lualine_c = { "diff", "python_env" }
+-- lvim.builtin.lualine.sections.lualine_c = { "diff", "python_env" }
 -- no need to set style = "lvim"
 local components = require("lvim.core.lualine.components")
 
