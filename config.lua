@@ -82,6 +82,7 @@ lvim.showtabline = true
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
 lvim.builtin.cmp.experimental.ghost_text = false
 lvim.lsp.diagnostics.virtual_text = false
+vim.opt.conceallevel = 0 -- so that `` is visible in markdown files
 -- Lualine config
 -- lvim.builtin.lualine.sections.lualine_c = { "diff", "python_env" }
 -- no need to set style = "lvim"
